@@ -25,7 +25,7 @@ public class WeatherAtLocation : MonoBehaviour,
 
 
 	void Start()
-    {
+	{
 		Message = "Fetching weather info";
 
 		var callbacks = new PermissionCallbacks();
